@@ -63,9 +63,39 @@ namespace PharmEase_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _360_F_424309320_UkOxg2z3sq7yXwGnWCO6xBXkRI4byhnI {
+            get {
+                object obj = ResourceManager.GetObject("360_F_424309320_UkOxg2z3sq7yXwGnWCO6xBXkRI4byhnI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _393179912_1592801194796657_265816263954239864_n {
             get {
                 object obj = ResourceManager.GetObject("393179912_1592801194796657_265816263954239864_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FI0U5Mt {
+            get {
+                object obj = ResourceManager.GetObject("FI0U5Mt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1151915829_170x170 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1151915829-170x170", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

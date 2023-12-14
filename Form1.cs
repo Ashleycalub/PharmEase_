@@ -89,5 +89,13 @@ namespace PharmEase_
             ViewUserPanel.Visible = false;
             ProfilePanel.Visible = true;
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            TransparentLoginPanel.BackColor = Color.FromArgb(100, 0, 0, 0);
+            Login.BackColor = Color.FromArgb(0, 0, 0, 0);
+            Uname.BackColor = Color.FromArgb(0, 0, 0, 0);
+            Pword.BackColor = Color.FromArgb(0, 0, 0, 0);
+        }
     }
 }

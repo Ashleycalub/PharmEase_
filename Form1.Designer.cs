@@ -28,24 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.LogInPanel = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btnCancel = new System.Windows.Forms.Button();
-            this.tbUsername = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.tbPassword = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnSignin = new System.Windows.Forms.Button();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.ButtonsPanel = new System.Windows.Forms.Panel();
-            this.btnLogout = new System.Windows.Forms.Button();
-            this.btnProfile = new System.Windows.Forms.Button();
-            this.btnViewUser = new System.Windows.Forms.Button();
-            this.btnAdduser = new System.Windows.Forms.Button();
-            this.btnDashboard = new System.Windows.Forms.Button();
             this.AdminPanel = new System.Windows.Forms.Panel();
             this.ProfilePanel = new System.Windows.Forms.Panel();
             this.AddUserPanel = new System.Windows.Forms.Panel();
@@ -70,10 +53,6 @@
             this.label14 = new System.Windows.Forms.Label();
             this.ViewUserdgview = new System.Windows.Forms.DataGridView();
             this.DashboardPanel = new System.Windows.Forms.Panel();
-            this.PharmacistPanel = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.Administratorpanel = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
@@ -92,10 +71,25 @@
             this.AdduserSavebtn = new System.Windows.Forms.Button();
             this.ProfileUpdatebtn = new System.Windows.Forms.Button();
             this.ProfileCancelbtn = new System.Windows.Forms.Button();
+            this.PharmacistPanel = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.Administratorpanel = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.ButtonsPanel = new System.Windows.Forms.Panel();
+            this.btnLogout = new System.Windows.Forms.Button();
+            this.btnProfile = new System.Windows.Forms.Button();
+            this.btnViewUser = new System.Windows.Forms.Button();
+            this.btnAdduser = new System.Windows.Forms.Button();
+            this.btnDashboard = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.tbUsername = new System.Windows.Forms.TextBox();
+            this.tbPassword = new System.Windows.Forms.TextBox();
+            this.btnSignin = new System.Windows.Forms.Button();
+            this.TransparentLoginPanel = new System.Windows.Forms.Panel();
+            this.Uname = new System.Windows.Forms.Label();
+            this.Login = new System.Windows.Forms.Label();
+            this.Pword = new System.Windows.Forms.Label();
             this.LogInPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.ButtonsPanel.SuspendLayout();
             this.AdminPanel.SuspendLayout();
             this.ProfilePanel.SuspendLayout();
             this.AddUserPanel.SuspendLayout();
@@ -104,188 +98,20 @@
             this.DashboardPanel.SuspendLayout();
             this.PharmacistPanel.SuspendLayout();
             this.Administratorpanel.SuspendLayout();
+            this.ButtonsPanel.SuspendLayout();
+            this.TransparentLoginPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // LogInPanel
             // 
             this.LogInPanel.BackColor = System.Drawing.Color.Lavender;
+            this.LogInPanel.BackgroundImage = global::PharmEase_.Properties.Resources.FI0U5Mt;
             this.LogInPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.LogInPanel.Controls.Add(this.pictureBox2);
-            this.LogInPanel.Controls.Add(this.btnCancel);
-            this.LogInPanel.Controls.Add(this.tbUsername);
-            this.LogInPanel.Controls.Add(this.label1);
-            this.LogInPanel.Controls.Add(this.label2);
-            this.LogInPanel.Controls.Add(this.tbPassword);
-            this.LogInPanel.Controls.Add(this.pictureBox1);
-            this.LogInPanel.Controls.Add(this.btnSignin);
-            this.LogInPanel.Controls.Add(this.flowLayoutPanel1);
-            this.LogInPanel.Controls.Add(this.flowLayoutPanel2);
+            this.LogInPanel.Controls.Add(this.TransparentLoginPanel);
             this.LogInPanel.Location = new System.Drawing.Point(0, 0);
             this.LogInPanel.Name = "LogInPanel";
             this.LogInPanel.Size = new System.Drawing.Size(952, 522);
             this.LogInPanel.TabIndex = 0;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(363, 519);
-            this.pictureBox2.TabIndex = 11;
-            this.pictureBox2.TabStop = false;
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.Location = new System.Drawing.Point(674, 360);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(87, 30);
-            this.btnCancel.TabIndex = 10;
-            this.btnCancel.Text = "Cancel";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
-            // 
-            // tbUsername
-            // 
-            this.tbUsername.Font = new System.Drawing.Font("Times New Roman", 14F);
-            this.tbUsername.Location = new System.Drawing.Point(553, 228);
-            this.tbUsername.Name = "tbUsername";
-            this.tbUsername.Size = new System.Drawing.Size(208, 29);
-            this.tbUsername.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(549, 204);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 21);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "User name:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(549, 282);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 21);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Password:";
-            // 
-            // tbPassword
-            // 
-            this.tbPassword.Font = new System.Drawing.Font("Times New Roman", 14F);
-            this.tbPassword.Location = new System.Drawing.Point(553, 306);
-            this.tbPassword.Name = "tbPassword";
-            this.tbPassword.Size = new System.Drawing.Size(208, 29);
-            this.tbPassword.TabIndex = 1;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(31, 204);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(0, 0);
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            // 
-            // btnSignin
-            // 
-            this.btnSignin.Location = new System.Drawing.Point(552, 360);
-            this.btnSignin.Name = "btnSignin";
-            this.btnSignin.Size = new System.Drawing.Size(87, 30);
-            this.btnSignin.TabIndex = 9;
-            this.btnSignin.Text = "Sign in";
-            this.btnSignin.UseVisualStyleBackColor = true;
-            this.btnSignin.Click += new System.EventHandler(this.btnSignin_Click);
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(469, 100);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(2, 350);
-            this.flowLayoutPanel1.TabIndex = 7;
-            // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(836, 100);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(2, 350);
-            this.flowLayoutPanel2.TabIndex = 8;
-            // 
-            // ButtonsPanel
-            // 
-            this.ButtonsPanel.BackgroundImage = global::PharmEase_.Properties.Resources.Rectangle_21;
-            this.ButtonsPanel.Controls.Add(this.btnLogout);
-            this.ButtonsPanel.Controls.Add(this.btnProfile);
-            this.ButtonsPanel.Controls.Add(this.btnViewUser);
-            this.ButtonsPanel.Controls.Add(this.btnAdduser);
-            this.ButtonsPanel.Controls.Add(this.btnDashboard);
-            this.ButtonsPanel.Location = new System.Drawing.Point(2, 2);
-            this.ButtonsPanel.Name = "ButtonsPanel";
-            this.ButtonsPanel.Size = new System.Drawing.Size(219, 516);
-            this.ButtonsPanel.TabIndex = 0;
-            // 
-            // btnLogout
-            // 
-            this.btnLogout.Font = new System.Drawing.Font("Times New Roman", 14F);
-            this.btnLogout.Location = new System.Drawing.Point(0, 403);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(216, 40);
-            this.btnLogout.TabIndex = 1;
-            this.btnLogout.Text = "Log out";
-            this.btnLogout.UseVisualStyleBackColor = true;
-            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
-            // 
-            // btnProfile
-            // 
-            this.btnProfile.Font = new System.Drawing.Font("Times New Roman", 14F);
-            this.btnProfile.Location = new System.Drawing.Point(0, 341);
-            this.btnProfile.Name = "btnProfile";
-            this.btnProfile.Size = new System.Drawing.Size(216, 40);
-            this.btnProfile.TabIndex = 3;
-            this.btnProfile.Text = "Profile";
-            this.btnProfile.UseVisualStyleBackColor = true;
-            this.btnProfile.Click += new System.EventHandler(this.btnProfile_Click);
-            // 
-            // btnViewUser
-            // 
-            this.btnViewUser.Font = new System.Drawing.Font("Times New Roman", 14F);
-            this.btnViewUser.Location = new System.Drawing.Point(0, 280);
-            this.btnViewUser.Name = "btnViewUser";
-            this.btnViewUser.Size = new System.Drawing.Size(216, 40);
-            this.btnViewUser.TabIndex = 2;
-            this.btnViewUser.Text = "View User";
-            this.btnViewUser.UseVisualStyleBackColor = true;
-            this.btnViewUser.Click += new System.EventHandler(this.btnViewUser_Click);
-            // 
-            // btnAdduser
-            // 
-            this.btnAdduser.Font = new System.Drawing.Font("Times New Roman", 14F);
-            this.btnAdduser.Location = new System.Drawing.Point(0, 219);
-            this.btnAdduser.Name = "btnAdduser";
-            this.btnAdduser.Size = new System.Drawing.Size(216, 40);
-            this.btnAdduser.TabIndex = 1;
-            this.btnAdduser.Text = "Add User";
-            this.btnAdduser.UseVisualStyleBackColor = true;
-            this.btnAdduser.Click += new System.EventHandler(this.btnAdduser_Click);
-            // 
-            // btnDashboard
-            // 
-            this.btnDashboard.Font = new System.Drawing.Font("Times New Roman", 14F);
-            this.btnDashboard.Location = new System.Drawing.Point(0, 156);
-            this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.Size = new System.Drawing.Size(216, 40);
-            this.btnDashboard.TabIndex = 0;
-            this.btnDashboard.Text = "Dashboard";
-            this.btnDashboard.UseVisualStyleBackColor = true;
-            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
             // 
             // AdminPanel
             // 
@@ -546,48 +372,6 @@
             this.DashboardPanel.Size = new System.Drawing.Size(735, 522);
             this.DashboardPanel.TabIndex = 1;
             // 
-            // PharmacistPanel
-            // 
-            this.PharmacistPanel.BackgroundImage = global::PharmEase_.Properties.Resources.Rectangle_21;
-            this.PharmacistPanel.Controls.Add(this.label5);
-            this.PharmacistPanel.Location = new System.Drawing.Point(379, 114);
-            this.PharmacistPanel.Name = "PharmacistPanel";
-            this.PharmacistPanel.Size = new System.Drawing.Size(301, 336);
-            this.PharmacistPanel.TabIndex = 2;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 14F);
-            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(105, 14);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(92, 21);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Pharmacist";
-            // 
-            // Administratorpanel
-            // 
-            this.Administratorpanel.BackgroundImage = global::PharmEase_.Properties.Resources.Rectangle_21;
-            this.Administratorpanel.Controls.Add(this.label4);
-            this.Administratorpanel.Location = new System.Drawing.Point(53, 114);
-            this.Administratorpanel.Name = "Administratorpanel";
-            this.Administratorpanel.Size = new System.Drawing.Size(301, 336);
-            this.Administratorpanel.TabIndex = 13;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 14F);
-            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(99, 14);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(112, 21);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Administrator";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -753,6 +537,209 @@
             this.ProfileCancelbtn.Text = "Cancel";
             this.ProfileCancelbtn.UseVisualStyleBackColor = true;
             // 
+            // PharmacistPanel
+            // 
+            this.PharmacistPanel.BackgroundImage = global::PharmEase_.Properties.Resources.Rectangle_21;
+            this.PharmacistPanel.Controls.Add(this.label5);
+            this.PharmacistPanel.Location = new System.Drawing.Point(379, 114);
+            this.PharmacistPanel.Name = "PharmacistPanel";
+            this.PharmacistPanel.Size = new System.Drawing.Size(301, 336);
+            this.PharmacistPanel.TabIndex = 2;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 14F);
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label5.Location = new System.Drawing.Point(105, 14);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(92, 21);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Pharmacist";
+            // 
+            // Administratorpanel
+            // 
+            this.Administratorpanel.BackgroundImage = global::PharmEase_.Properties.Resources.Rectangle_21;
+            this.Administratorpanel.Controls.Add(this.label4);
+            this.Administratorpanel.Location = new System.Drawing.Point(53, 114);
+            this.Administratorpanel.Name = "Administratorpanel";
+            this.Administratorpanel.Size = new System.Drawing.Size(301, 336);
+            this.Administratorpanel.TabIndex = 13;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 14F);
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label4.Location = new System.Drawing.Point(99, 14);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(112, 21);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Administrator";
+            // 
+            // ButtonsPanel
+            // 
+            this.ButtonsPanel.BackgroundImage = global::PharmEase_.Properties.Resources.Rectangle_21;
+            this.ButtonsPanel.Controls.Add(this.btnLogout);
+            this.ButtonsPanel.Controls.Add(this.btnProfile);
+            this.ButtonsPanel.Controls.Add(this.btnViewUser);
+            this.ButtonsPanel.Controls.Add(this.btnAdduser);
+            this.ButtonsPanel.Controls.Add(this.btnDashboard);
+            this.ButtonsPanel.Location = new System.Drawing.Point(2, 2);
+            this.ButtonsPanel.Name = "ButtonsPanel";
+            this.ButtonsPanel.Size = new System.Drawing.Size(219, 516);
+            this.ButtonsPanel.TabIndex = 0;
+            // 
+            // btnLogout
+            // 
+            this.btnLogout.Font = new System.Drawing.Font("Times New Roman", 14F);
+            this.btnLogout.Location = new System.Drawing.Point(0, 403);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(216, 40);
+            this.btnLogout.TabIndex = 1;
+            this.btnLogout.Text = "Log out";
+            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // 
+            // btnProfile
+            // 
+            this.btnProfile.Font = new System.Drawing.Font("Times New Roman", 14F);
+            this.btnProfile.Location = new System.Drawing.Point(0, 341);
+            this.btnProfile.Name = "btnProfile";
+            this.btnProfile.Size = new System.Drawing.Size(216, 40);
+            this.btnProfile.TabIndex = 3;
+            this.btnProfile.Text = "Profile";
+            this.btnProfile.UseVisualStyleBackColor = true;
+            this.btnProfile.Click += new System.EventHandler(this.btnProfile_Click);
+            // 
+            // btnViewUser
+            // 
+            this.btnViewUser.Font = new System.Drawing.Font("Times New Roman", 14F);
+            this.btnViewUser.Location = new System.Drawing.Point(0, 280);
+            this.btnViewUser.Name = "btnViewUser";
+            this.btnViewUser.Size = new System.Drawing.Size(216, 40);
+            this.btnViewUser.TabIndex = 2;
+            this.btnViewUser.Text = "View User";
+            this.btnViewUser.UseVisualStyleBackColor = true;
+            this.btnViewUser.Click += new System.EventHandler(this.btnViewUser_Click);
+            // 
+            // btnAdduser
+            // 
+            this.btnAdduser.Font = new System.Drawing.Font("Times New Roman", 14F);
+            this.btnAdduser.Location = new System.Drawing.Point(0, 219);
+            this.btnAdduser.Name = "btnAdduser";
+            this.btnAdduser.Size = new System.Drawing.Size(216, 40);
+            this.btnAdduser.TabIndex = 1;
+            this.btnAdduser.Text = "Add User";
+            this.btnAdduser.UseVisualStyleBackColor = true;
+            this.btnAdduser.Click += new System.EventHandler(this.btnAdduser_Click);
+            // 
+            // btnDashboard
+            // 
+            this.btnDashboard.Font = new System.Drawing.Font("Times New Roman", 14F);
+            this.btnDashboard.Location = new System.Drawing.Point(0, 156);
+            this.btnDashboard.Name = "btnDashboard";
+            this.btnDashboard.Size = new System.Drawing.Size(216, 40);
+            this.btnDashboard.TabIndex = 0;
+            this.btnDashboard.Text = "Dashboard";
+            this.btnDashboard.UseVisualStyleBackColor = true;
+            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.BackColor = System.Drawing.Color.White;
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnCancel.Font = new System.Drawing.Font("Times New Roman", 14.25F);
+            this.btnCancel.ForeColor = System.Drawing.Color.Black;
+            this.btnCancel.Location = new System.Drawing.Point(182, 274);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(95, 29);
+            this.btnCancel.TabIndex = 10;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = false;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
+            // tbUsername
+            // 
+            this.tbUsername.Font = new System.Drawing.Font("Times New Roman", 14F);
+            this.tbUsername.Location = new System.Drawing.Point(68, 228);
+            this.tbUsername.Name = "tbUsername";
+            this.tbUsername.Size = new System.Drawing.Size(208, 29);
+            this.tbUsername.TabIndex = 0;
+            // 
+            // tbPassword
+            // 
+            this.tbPassword.Font = new System.Drawing.Font("Times New Roman", 14F);
+            this.tbPassword.Location = new System.Drawing.Point(68, 154);
+            this.tbPassword.Name = "tbPassword";
+            this.tbPassword.Size = new System.Drawing.Size(208, 29);
+            this.tbPassword.TabIndex = 1;
+            // 
+            // btnSignin
+            // 
+            this.btnSignin.BackColor = System.Drawing.Color.White;
+            this.btnSignin.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnSignin.Font = new System.Drawing.Font("Times New Roman", 14.25F);
+            this.btnSignin.ForeColor = System.Drawing.Color.Black;
+            this.btnSignin.Location = new System.Drawing.Point(71, 274);
+            this.btnSignin.Name = "btnSignin";
+            this.btnSignin.Size = new System.Drawing.Size(95, 29);
+            this.btnSignin.TabIndex = 9;
+            this.btnSignin.Text = "Sign in";
+            this.btnSignin.UseVisualStyleBackColor = false;
+            this.btnSignin.Click += new System.EventHandler(this.btnSignin_Click);
+            // 
+            // TransparentLoginPanel
+            // 
+            this.TransparentLoginPanel.BackColor = System.Drawing.Color.Transparent;
+            this.TransparentLoginPanel.Controls.Add(this.Pword);
+            this.TransparentLoginPanel.Controls.Add(this.Uname);
+            this.TransparentLoginPanel.Controls.Add(this.Login);
+            this.TransparentLoginPanel.Controls.Add(this.btnSignin);
+            this.TransparentLoginPanel.Controls.Add(this.tbPassword);
+            this.TransparentLoginPanel.Controls.Add(this.tbUsername);
+            this.TransparentLoginPanel.Controls.Add(this.btnCancel);
+            this.TransparentLoginPanel.ForeColor = System.Drawing.Color.Transparent;
+            this.TransparentLoginPanel.Location = new System.Drawing.Point(314, 86);
+            this.TransparentLoginPanel.Name = "TransparentLoginPanel";
+            this.TransparentLoginPanel.Size = new System.Drawing.Size(350, 383);
+            this.TransparentLoginPanel.TabIndex = 1;
+            // 
+            // Uname
+            // 
+            this.Uname.AutoSize = true;
+            this.Uname.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Uname.ForeColor = System.Drawing.Color.Cyan;
+            this.Uname.Location = new System.Drawing.Point(67, 130);
+            this.Uname.Name = "Uname";
+            this.Uname.Size = new System.Drawing.Size(93, 21);
+            this.Uname.TabIndex = 12;
+            this.Uname.Text = "User name:";
+            // 
+            // Login
+            // 
+            this.Login.AutoSize = true;
+            this.Login.Font = new System.Drawing.Font("Mistral", 29.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Login.ForeColor = System.Drawing.Color.Cyan;
+            this.Login.Location = new System.Drawing.Point(122, 53);
+            this.Login.Name = "Login";
+            this.Login.Size = new System.Drawing.Size(99, 47);
+            this.Login.TabIndex = 11;
+            this.Login.Text = "Log In";
+            // 
+            // Pword
+            // 
+            this.Pword.AutoSize = true;
+            this.Pword.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Pword.ForeColor = System.Drawing.Color.Cyan;
+            this.Pword.Location = new System.Drawing.Point(67, 207);
+            this.Pword.Name = "Pword";
+            this.Pword.Size = new System.Drawing.Size(88, 21);
+            this.Pword.TabIndex = 13;
+            this.Pword.Text = "Password:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -762,11 +749,8 @@
             this.Controls.Add(this.AdminPanel);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.LogInPanel.ResumeLayout(false);
-            this.LogInPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.ButtonsPanel.ResumeLayout(false);
             this.AdminPanel.ResumeLayout(false);
             this.ProfilePanel.ResumeLayout(false);
             this.ProfilePanel.PerformLayout();
@@ -781,6 +765,9 @@
             this.PharmacistPanel.PerformLayout();
             this.Administratorpanel.ResumeLayout(false);
             this.Administratorpanel.PerformLayout();
+            this.ButtonsPanel.ResumeLayout(false);
+            this.TransparentLoginPanel.ResumeLayout(false);
+            this.TransparentLoginPanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -788,15 +775,6 @@
         #endregion
 
         private System.Windows.Forms.Panel LogInPanel;
-        private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.Button btnSignin;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox tbPassword;
-        private System.Windows.Forms.TextBox tbUsername;
         private System.Windows.Forms.Panel ButtonsPanel;
         private System.Windows.Forms.Panel AdminPanel;
         private System.Windows.Forms.Button btnDashboard;
@@ -825,7 +803,6 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox tbUserN;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel ViewUserPanel;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
@@ -850,6 +827,14 @@
         private System.Windows.Forms.Button AdduserCancelbtn;
         private System.Windows.Forms.Button AdduserSavebtn;
         private System.Windows.Forms.Button ProfileCancelbtn;
+        private System.Windows.Forms.Panel TransparentLoginPanel;
+        private System.Windows.Forms.Button btnSignin;
+        private System.Windows.Forms.TextBox tbPassword;
+        private System.Windows.Forms.TextBox tbUsername;
+        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Label Uname;
+        private System.Windows.Forms.Label Login;
+        private System.Windows.Forms.Label Pword;
     }
 }
 
