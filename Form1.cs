@@ -27,8 +27,9 @@ namespace PharmEase_
             LogInPanel.Visible = false;
             AdminPanel.Visible = true;
             ButtonsPanel.Visible = true;
-            DashboardPanel.Visible = false;
+            DashboardPanel.Visible = true;
             AddUserPanel.Visible = false;
+            ViewUserPanel.Visible = false;
         }
 
         private void btnDashboard_Click(object sender, EventArgs e)
@@ -38,6 +39,7 @@ namespace PharmEase_
             ButtonsPanel.Visible = true;
             DashboardPanel.Visible = true;
             AddUserPanel.Visible = false;
+            ViewUserPanel.Visible = false;
         }
 
         private void btnAdduser_Click(object sender, EventArgs e)
@@ -47,6 +49,7 @@ namespace PharmEase_
             ButtonsPanel.Visible = true;
             DashboardPanel.Visible = false;
             AddUserPanel.Visible = true;
+            ViewUserPanel.Visible = false;
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
@@ -56,6 +59,35 @@ namespace PharmEase_
             ButtonsPanel.Visible = true;
             DashboardPanel.Visible = false;
             AddUserPanel.Visible = false;
+            ViewUserPanel.Visible = false;
+        }
+
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void btnViewUser_Click(object sender, EventArgs e)
+        {
+            LogInPanel.Visible = false;
+            AdminPanel.Visible = true;
+            ButtonsPanel.Visible = true;
+            DashboardPanel.Visible = false;
+            AddUserPanel.Visible = false;
+            ViewUserPanel.Visible = true;
+        }
+
+        private void btnProfile_Click(object sender, EventArgs e)
+        {
+            LogInPanel.Visible = false;
+            AdminPanel.Visible = true;
+            ButtonsPanel.Visible = true;
+            DashboardPanel.Visible = false;
+            AddUserPanel.Visible = false;
+            ViewUserPanel.Visible = false;
+            ProfilePanel.Visible = true;
         }
     }
 }
